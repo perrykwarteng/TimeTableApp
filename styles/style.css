@@ -1,0 +1,50 @@
+:root{
+    --primary-color:#2d2942 ;
+    --secondary-color: #fb3a26;
+    --tetiary-color: #ffc344;
+    --accent-color: #d1d4d7;
+    --big-font-size: 2.8rem;
+    --small-font-size: 1.8rem ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* Navigation bar */
+.navbar{
+    height: 10vh;
+    box-shadow: 0 0 2px 2px var(--tetiary-color);
+}
+.navbar .navbar-brand a{
+    font-size: var(--big-font-size);
+}
+.navbar .navbar-nav .nav-item{
+    font-size: var(--small-font-size);
+    margin: 0rem 2rem;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: var(--secondary-color);
+    text-decoration: underline;
+    transition: all 1.5s ease;
+}
+.navbar .collapse{
+    background: var(--primary-color);
+    transition: all 1.5s ease;
+}
+
+@media screen and (min-widht:950px) {
+    .navbar .collapse{
+        height: 14rem;
+    }
+}
+.hero{
+    height: 90vh;
+    background: linear-gradient(to bottom right, #2d2942,#4b417b);
+    border-bottom-right-radius: 20rem;
+}
