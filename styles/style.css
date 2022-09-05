@@ -166,10 +166,54 @@ h2{
 
 
 /* Works */
-#about{
+.about{
     height: 100%;
+    padding: 2rem;
     background: linear-gradient(to bottom right, #2d2942,#4b417b);
     border-top-left-radius: 10rem;
+}
+.about .about-head h2{
+   margin: 3rem 0rem;
+   font-size: var(--big-font-size);
+   font-weight: 600;
+   color: var(--accent-color);
+}
+.about .about-head p{
+    margin: 2.5rem 3rem;
+    font-size: var(--small-font-size);
+    color: var(--tetiary-color);
+ }
+#about .info{
+    text-align: center;
+    margin: 3rem 0rem ;
+}
+
+#about .info .img img{
+    width: 20rem;
+    border: 3px solid var(--tetiary-color);
+    border-radius: 50%;
+    margin: 0rem 0rem 2rem 0rem;
+}
+#about .info .text h4,
+#about .info .text p{
+    font-size: var(--small-font-size);
+    color: var(--accent-color);
+}
+#about .info .text h4{
+    font-weight: 500;
+}
+#about .info .text p{
+    font-size: var(--small-font-size);
+    color: var(--tetiary-color);
+    opacity: 70%;
+}
+@media screen and (min-width:768px) {
+    #about{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
 .call{
     height: 100%;
