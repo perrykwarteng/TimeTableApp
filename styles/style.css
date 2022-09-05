@@ -22,14 +22,15 @@ h2{
 
 /* Navigation bar */
 .navbar{
-    height: 10vh;
+   max-height: 10vh;
     box-shadow: 0 0 2px 2px var(--tetiary-color);
 }
 .navbar .navbar-brand a{
     font-size: var(--big-font-size);
 }
 .navbar .navbar-brand img{
-    width: 25rem;
+    width: 100px;
+    margin: 0rem;
 }
 .navbar .navbar-nav .nav-item{
     font-size: var(--small-font-size);
@@ -43,6 +44,7 @@ h2{
 .navbar .collapse{
     background: var(--primary-color);
     transition: all 0.5s ease;
+    z-index: 11;
     /* height: 14rem; */
 }
 @media screen and (min-width:990) {
@@ -63,7 +65,7 @@ h2{
     padding: 1rem;
 }
 .hero .hero-intro h2{
-    margin: 3rem 0rem 0rem 0rem;
+    margin: 5rem 0rem 0rem 0rem;
     font-size: var(--big-font-size);
     font-weight: 600;
     color: var(--accent-color);
