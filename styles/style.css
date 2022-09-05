@@ -214,6 +214,9 @@ h2{
         align-items: center;
         flex-wrap: wrap;
     }
+    .about{
+        border-top-left-radius: 15rem;
+    }
 }
 .call{
     height: 100%;
