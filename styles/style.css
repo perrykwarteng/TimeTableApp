@@ -52,12 +52,15 @@ h2{
 /* Hero section */
 .hero{
     height: 90vh;
-    background: linear-gradient(to bottom right, #2d2942,#4b417b);
-    border-bottom-right-radius: 20rem;
+    background: linear-gradient(to bottom right, #2d2942f2,#4b417bf2), url('/assert/Images/classbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 10rem;
     padding: 1rem;
 }
 .hero .hero-intro h2{
-    margin: 3rem 0rem 0rem 0rem;
+    margin: 4rem 0rem 0rem 0rem;
     font-size: var(--big-font-size);
     color: var(--accent-color);
     text-transform: capitalize;
@@ -77,6 +80,7 @@ h2{
 } */
 .hero .hero-img img{
     width: 40rem;
+    margin-top: 3rem;
 }
 
 @media screen and (min-width:768px) {
@@ -84,6 +88,7 @@ h2{
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        border-bottom-right-radius: 15rem;
     }
     .hero .hero-intro h2{
         font-size: 3rem;
@@ -93,6 +98,24 @@ h2{
         font-size: 3rem;
         margin: 0rem 0rem 3rem 0rem;
     }
+}
+/* Features */
+.Features{
+    height: 100vh;
+}
+
+/* Works */
+.works{
+    height: 100vh;
+    background: linear-gradient(to bottom right, #2d2942,#4b417b);
+    border-top-left-radius: 10rem;
+}
+.about{
+    height: 100vh;
+}
+.call{
+    height: 40vh;
+    background: var(--tetiary-color);
 }
 
 /* Footer */
