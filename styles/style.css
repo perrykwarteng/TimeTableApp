@@ -28,6 +28,9 @@ h2{
 .navbar .navbar-brand a{
     font-size: var(--big-font-size);
 }
+.navbar .navbar-brand img{
+    width: 25rem;
+}
 .navbar .navbar-nav .nav-item{
     font-size: var(--small-font-size);
     margin: 0rem 2rem;
