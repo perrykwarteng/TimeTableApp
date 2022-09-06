@@ -1,0 +1,17 @@
+:root{
+    --primary-color:#2d2942 ;
+    --secondary-color: #fb3a26;
+    --tetiary-color: #ffc344;
+    --accent-color: #d1d4d7;
+    --big-font-size: 3rem;
+    --small-font-size: 1.6rem ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}

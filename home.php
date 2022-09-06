@@ -17,7 +17,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2d2942;">
       <div class="container">
-        <a class="navbar-brand" href="/index.html"><img src="/assert/Images/timetable app logo.png" alt=""></a>
+        <a class="navbar-brand" href="home.php"><img src="assert/Images/timetable app logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,24 +49,22 @@
     </div>
     <div class="col-sm-12 col-md-6 col-lg-6">
       <div class="hero-img">
-        <img class="img-fluid" src="/assert/Images/home.png" alt="home">
+        <img class="img-fluid" src="assert/Images/home.png" alt="home">
       </div>
     </div>
 
   </section>
 
   <!-- features -->
-  <section >
+  <section>
     <div class="col-sm-12 col-md-12 col-lg-12 text-center feature-head">
       <h2>Our Featured Services</h2>
     </div>
     <div id="features" class="col-sm-12 col-md-12 col-lg-12 ">
       <!-- one -->
-      <div class="feature-card" data-aos="fade-up"
-      data-aos-easing="linear"
-      data-aos-duration="1100">
+      <div class="feature-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1100">
         <div class="feature-img">
-          <img src="/assert/Images/sample.png" alt="">
+          <img src="assert/Images/sample.png" alt="">
         </div>
         <div class="feature-text">
           <h3>Feature Text</h3>
@@ -75,11 +73,9 @@
       </div>
 
       <!-- two -->
-      <div class="feature-card" data-aos="fade-up"
-      data-aos-easing="linear"
-      data-aos-duration="1400">
+      <div class="feature-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1200">
         <div class="feature-img">
-          <img src="/assert/Images/sample.png" alt="">
+          <img src="assert/Images/sample.png" alt="">
         </div>
         <div class="feature-text">
           <h3>Feature Text</h3>
@@ -88,11 +84,9 @@
       </div>
 
       <!-- three -->
-      <div class="feature-card" data-aos="fade-up"
-      data-aos-easing="linear"
-      data-aos-duration="1600">
+      <div class="feature-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1300">
         <div class="feature-img">
-          <img src="/assert/Images/sample.png" alt="">
+          <img src="assert/Images/sample.png" alt="">
         </div>
         <div class="feature-text">
           <h3>Feature Text</h3>
@@ -100,11 +94,9 @@
         </div>
       </div>
       <!-- four -->
-      <div class="feature-card" data-aos="fade-up"
-      data-aos-easing="linear"
-      data-aos-duration="1800">
+      <div class="feature-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1400">
         <div class="feature-img">
-          <img src="/assert/Images/sample.png" alt="">
+          <img src="assert/Images/sample.png" alt="">
         </div>
         <div class="feature-text">
           <h3>Feature Text</h3>
@@ -112,11 +104,9 @@
         </div>
       </div>
       <!-- five -->
-      <div class="feature-card" data-aos="fade-up"
-      data-aos-easing="linear"
-      data-aos-duration="2000">
+      <div class="feature-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
         <div class="feature-img">
-          <img src="/assert/Images/sample.png" alt="">
+          <img src="assert/Images/sample.png" alt="">
         </div>
         <div class="feature-text">
           <h3>Feature Text</h3>
@@ -124,20 +114,21 @@
         </div>
       </div>
       <!-- six -->
-      <div class="feature-card" data-aos="fade-up"
-      data-aos-easing="linear"
-      data-aos-duration="2200">
+      <div class="feature-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1600">
         <div class="feature-img">
-          <img src="/assert/Images/sample.png" alt="">
+          <img src="assert/Images/sample.png" alt="">
         </div>
         <div class="feature-text">
           <h3>Feature Text</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quibusdam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, pariatur?</p>
         </div>
       </div>
-      
+
     </div>
   </section>
+
+  <!-- how it works -->
+  <section class="works"></section>
 
   <!-- About us -->
   <section id="About" class="about">
@@ -149,10 +140,9 @@
     </div>
     <div id="about" class="col-sm-12 col-md-12 col-lg-12">
       <!-- one -->
-      <div class="info" data-aos="zoom-out-up" data-aos-easing="linear"
-      data-aos-duration="1100">
+      <div class="info" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="900">
         <div class="img">
-          <img src="/assert/Images/one.jpg" alt="">
+          <img src="assert/Images/one.jpg" alt="">
         </div>
         <div class="text">
           <h4>Zillion Willians</h4>
@@ -161,20 +151,19 @@
       </div>
 
       <!-- two -->
-      <div class="info" data-aos="zoom-out-up" data-aos-easing="linear"
-      data-aos-duration="1100">
+      <div class="info" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="900">
         <div class="img">
-          <img src="/assert/Images/two.jpg" alt="">
+          <img src="assert/Images/two.jpg" alt="">
         </div>
         <div class="text">
           <h4>Zillion Willians</h4>
           <p>-Developer-</p>
         </div>
       </div>
-      <!-- three --><div class="info" data-aos="zoom-out-up" data-aos-easing="linear"
-      data-aos-duration="1100">
+      <!-- three -->
+      <div class="info" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="900">
         <div class="img">
-          <img src="/assert/Images/three.jpg" alt="">
+          <img src="assert/Images/three.jpg" alt="">
         </div>
         <div class="text">
           <h4>Zillion Willians</h4>
@@ -182,10 +171,9 @@
         </div>
       </div>
       <!-- four -->
-      <div class="info" data-aos="zoom-out-up" data-aos-easing="linear"
-      data-aos-duration="1100">
+      <div class="info" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="900">
         <div class="img">
-          <img src="/assert/Images/four.jpg" alt="">
+          <img src="assert/Images/four.jpg" alt="">
         </div>
         <div class="text">
           <h4>Zillion Willians</h4>
@@ -193,10 +181,9 @@
         </div>
       </div>
       <!-- five -->
-      <div class="info" data-aos="zoom-out-up" data-aos-easing="linear"
-      data-aos-duration="1100">
+      <div class="info" data-aos="zoom-out-up" data-aos-easing="linear" data-aos-duration="900">
         <div class="img">
-          <img src="/assert/Images/five.jpg" alt="">
+          <img src="assert/Images/five.jpg" alt="">
         </div>
         <div class="text">
           <h4>Zillion Willians</h4>
@@ -205,8 +192,7 @@
       </div>
     </div>
   </section>
-  <!-- call to action -->
-  <section class="call"></section>
+
   <!-- footer section -->
   <footer class="footer text-center">
     <div class="col-sm-12 col-md-12 col-lg-12">
@@ -218,7 +204,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="/js/aos.js"></script>
+  <script src="js/aos.js"></script>
 </body>
 
 </html>
