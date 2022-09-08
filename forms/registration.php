@@ -52,6 +52,10 @@
             <div class="login-body">
                 <form action="">
                     <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="email" class="form-control" name="name" id="name" placeholder="Enter Your Full Name">
+                    </div>
+                    <div class="mb-3">
                         <label for="indexNumber" class="form-label">IndexNumber</label>
                         <input type="email" class="form-control" name="indexNumber" id="indexNumber" placeholder="Enter IndexNumber">
                     </div>
@@ -73,7 +77,7 @@
                 </form>
             </div>
             <div class="signup">
-                <p>Do you have an Account? <a href="#">SignUp</a></p>
+                <p>Do you have an Account? <a href="./login.php">SignIn</a></p>
             </div>
         </div>
     </section>

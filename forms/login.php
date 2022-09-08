@@ -42,7 +42,7 @@
                 </form>
             </div>
             <div class="signup">
-                <p>Do you have an Account? <a href="#">SignUp</a></p>
+                <p>Do you have an Account? <a href="./registration.php">SignUp</a></p>
             </div>
         </div>
         <div class="col-sm-12 col-md-7 col-lg-7">
