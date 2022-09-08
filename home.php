@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="assert/Images/timetable app logo.png" type="image/x-icon">
-  <title>Time Table App</title>
+  <title>TimeTable App</title>
   <link rel="stylesheet" href="styles/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -46,6 +46,11 @@
       <div class="hero-intro text-center" data-aos="fade-down-right" data-aos-duration="1100">
         <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quisquam quaerat, architecto quis fugiat soluta?</p>
+
+        <div class="button">
+          <a style=" text-decoration:none; color:#2d2942" href="./forms/login.php"><button class="btn btn-primary" style="width: 15rem; background:#ffc344;height: 3.5rem; margin-top:5px; border:none;font-size:1.6rem;font-weight:500 ">SignIn</button></a>
+          <a style=" text-decoration:none; color:#2d2942" href="./forms/registration.php"> <button class="btn btn-primary" style="width: 15rem; background:#fb3a26;height: 3.5rem; margin-top:5px; border:none;font-size:1.6rem; font-weight:500 ">SignUp</button></a>
+        </div>
       </div>
     </div>
     <div class="col-sm-12 col-md-6 col-lg-6">

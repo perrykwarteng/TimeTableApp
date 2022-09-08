@@ -16,8 +16,13 @@ html{
     font-size: 62.5%;
 }
 
+
 h2{
     font-size: var(--big-font-size);
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 /* Navigation bar */
@@ -52,6 +57,7 @@ h2{
         height: none;
     }
 }
+
 
 
 /* Hero section */
