@@ -63,7 +63,7 @@ a{
 /* Hero section */
 .hero{
     height: 90vh;
-    background: linear-gradient(to bottom right, #2d2942f2,#4b417bf2), url('/assert/Images/classbg.jpg');
+    background: linear-gradient(to bottom right, #2d2942f2,#4b417bf2), url('../assert/Images/classbg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

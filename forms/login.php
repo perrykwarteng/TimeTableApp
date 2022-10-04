@@ -19,17 +19,25 @@
                 <img src="../assert/Images/timetable app logo.png" alt="Main logo">
             </div>
             <div class="login-body">
-                <form action="">
+                <form action="signin.php" method="post">
                     <div class="mb-3">
-                        <label for="indexNumber" class="form-label">IndexNumber</label>
-                        <input type="email" class="form-control" name="indexNumber" id="indexNumber" placeholder="Enter IndexNumber">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" class="form-control" name="username" id="username" placeholder="Enter username">
+                    </div>
+                    <div class="mb-3">
+                        <label for="userType" class="form-label">User Type</label>
+                        <select name="userType" id="userType">
+                            <option value="admin">Admin</option>
+                            <option value="lecturer">lecturer</option>
+                            <option value="student">Student</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password">
                     </div>
 
-                    <button type="submit" class="btn btn-primary" style="width: 100%; background:#fb3a26;height: 3.5rem; width:30rem; margin-top:5px; border:none;font-size:1.6rem; font-weight:500 ">Submit</button>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; background:#fb3a26;height: 3.5rem; width:30rem; margin-top:5px; border:none;font-size:1.6rem; font-weight:500" name="login">Login</button>
                     <div class="sameline">
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" name="rememberMe" id="rememberMe">
