@@ -11,15 +11,78 @@
 </head>
 
 <body>
+
+
+    <?php require_once './process.php'; ?>
+    <?php
+    $query = "select * from timetable_allocation";
+    $result = mysqli_query($conn, $query);
+    ?>
+
+    <?php
+    if (isset($_SESSION['message'])) {
+    ?>
+        <div class="alert alert-<? $_SESSTION['msg_type'] ?>">
+            <?php
+            echo $_SESSION['message'];
+            unset($_SESSION['message']);
+            ?>
+
+        </div>
+    <?php } ?>
+
+
     <div class="dashboard">
         <div class="navigation">
             <nav>
-                <p><a href="/">Timetable</a></p>
-                <p><a href="/">profile</a></p>
+                <p><a href="./lecturer.php">Timetable</a></p>
+                <p><a href="../home.php">Logout</a></p>
             </nav>
         </div>
         <div class="content">
+            <div style="font-size:2rem;color:#2d2942;margin-top: 5rem;" class="head text-center">
+                <h2>Lecturer Dashboard</h2>
+            </div>
 
+            <div class="cards">
+                <div class="card">
+                    <img src="../assert/Images/time.png" alt="">
+                    <p><a href="./staff.php">TimeTable</a></p>
+                </div>
+                <div class="card">
+                    <img src="../assert/Images/department.png" alt="">
+                    <p><a href="./department.php">Logout</a></p>
+                </div>
+
+                <div>
+                    <div>
+                        <table class="table table-sm table-striped" style="margin-top:20rem;margin-left:2rem;width: 100%;font-size: 1.6rem;">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Time</th>
+                                    <th scope="col">Course Code </th>
+                                    <th scope="col">Venue</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <?php
+                                while ($row = $result->fetch_assoc()) {;
+                                ?>
+                                    <tr>
+                                        <td> <?php echo $row['id']; ?></td>
+                                        <td> <?php echo $row['time']; ?></td>
+                                        <td><?php echo $row['course_code']; ?></td>
+                                        <td><?php echo $row['venue']; ?></td>
+                                    </tr>
+
+                                <?php } ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

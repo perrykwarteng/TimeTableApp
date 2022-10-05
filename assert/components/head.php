@@ -27,9 +27,6 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#features">Features</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#works">How it works</a>
-                        </li>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>

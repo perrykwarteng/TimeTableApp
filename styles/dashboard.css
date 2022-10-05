@@ -41,6 +41,7 @@ a{
     font-size: 2.4rem;
     padding: 0.5rem;
 }
+
 .navigation nav p:hover{
     background: #ffc344;
     color: var(--primary-color);
@@ -56,9 +57,18 @@ a{
 .dashboard .content{
     width: 80vw;
 }
-.dashboard .content .taskbar h2{
+.dashboard .content .taskbar{
+    display: flex;
+    justify-content: space-around;
+}
+.dashboard .content .taskbar h2,
+.dashboard .content .taskbar p{
     margin: 10px 0rem 0rem 5rem;
     font-size: var(--big-font-size);
+}
+.content .taskbar p a{
+    color: var(--primary-color);
+    text-decoration: none;
 }
 
 .dashboard .content .cards{
@@ -99,7 +109,6 @@ a{
 .dashboard .info img{
     width: 6rem;
     height: 6rem;
-    border-radius: 50%;
 }
 .dashboard .info p{
     font-size: 2rem;

@@ -11,9 +11,29 @@
 </head>
 
 <body>
+    <?php require_once './process.php'; ?>
+    <?php
+    $query = "select * from timetable_allocation";
+    $result = mysqli_query($conn, $query);
+    ?>
+
+    <?php
+    if (isset($_SESSION['message'])) {
+    ?>
+        <div class="alert alert-<? $_SESSTION['msg_type'] ?>">
+            <?php
+            echo $_SESSION['message'];
+            unset($_SESSION['message']);
+            ?>
+
+        </div>
+    <?php } ?>
+
+
     <div class="dashboard">
         <div class="navigation">
             <nav>
+                <p><a href="./admin.php">Dashboard</a></p>
                 <p><a href="./staff.php">Staff Details</a></p>
                 <p><a href="./department.php">Department Details</a></p>
                 <p><a href="./courses.php">Course Details</a></p>
@@ -44,13 +64,59 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <form action="./process.php" method="post">
+                                <div class="mb-3">
+                                    <label for="time" class="form-label">Time</label>
+                                    <input type="time" class="form-control" name="time">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="course_code" class="form-label">Course Code</label>
+                                    <input type="text" class="form-control" name="course_code">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="venue" class="form-label">Venue</label>
+                                    <input type="text" class="form-control" name="venue">
+                                </div>
+                                <button type="submit" class="btn btn-primary" name="add_timetable">Add</button>
+                            </form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <table class="table table-sm table-striped" style="margin-top:20rem;margin-left:2rem;width: 90%;font-size: 1.6rem;">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Course Code </th>
+                                <th scope="col">Venue</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <?php
+                            while ($row = $result->fetch_assoc()) {;
+                            ?>
+                                <tr>
+                                    <td> <?php echo $row['id']; ?></td>
+                                    <td> <?php echo $row['time']; ?></td>
+                                    <td><?php echo $row['course_code']; ?></td>
+                                    <td><?php echo $row['venue']; ?></td>
+                                    <td>
+                                        <a href="process.php?delete=<?php echo $row['id']; ?>" class="btn btn-danger">Delete</a>
+                                    </td>
+                                </tr>
+
+                            <?php } ?>
+                        </tbody>
+                    </table>
                 </div>
             </div>
 

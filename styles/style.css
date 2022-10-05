@@ -91,7 +91,7 @@ a{
     align-items: center;
 } */
 .hero .hero-img img{
-    width: 40rem;
+    width: 50rem;
     margin-top: 1rem;
 }
 
@@ -109,6 +109,9 @@ a{
     .hero .hero-intro {
         font-size: 3rem;
         margin: 0rem 0rem 3rem 0rem;
+    }
+    .hero .hero-img img{
+        width: 60rem;
     }
 }
 /* Features */
@@ -202,7 +205,7 @@ a{
 #about .info .img img{
     width: 20rem;
     border: 3px solid var(--tetiary-color);
-    border-radius: 50%;
+    border-radius: 3rem;
     margin: 0rem 0rem 2rem 0rem;
 }
 #about .info .text h4,

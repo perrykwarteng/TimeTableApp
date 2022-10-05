@@ -14,6 +14,8 @@
     <div class="dashboard">
         <div class="navigation">
             <nav>
+
+                <p><a href="./admin.php">Dashboard</a></p>
                 <p><a href="./staff.php">Staff Details</a></p>
                 <p><a href="./department.php">Department Details</a></p>
                 <p><a href="./courses.php">Course Details</a></p>
@@ -24,33 +26,34 @@
         <div class="content">
             <div class="taskbar">
                 <h2>Admin Dashboard</h2>
+                <p><a href="../home.php">logout</a></p>
             </div>
             <div class="cards">
                 <div class="card">
-                    <img src="../assert/Images/one.jpg" alt="">
-                    <p><a href="">Staff Details</a></p>
+                    <img src="../assert/Images/staff.png" alt="">
+                    <p><a href="./staff.php">Staff Details</a></p>
                 </div>
                 <div class="card">
-                    <img src="../assert/Images/one.jpg" alt="">
+                    <img src="../assert/Images/department.png" alt="">
                     <p><a href="./department.php">Department Details</a></p>
                 </div>
                 <div class="card">
-                    <img src="../assert/Images/one.jpg" alt="">
-                    <p><a href="">Course Details</a></p>
+                    <img src="../assert/Images/course.png" alt="">
+                    <p><a href="./courses.php">Course Details</a></p>
                 </div>
                 <div class="card">
-                    <img src="../assert/Images/one.jpg" alt="">
-                    <p><a href="">Subject Details</a></p>
+                    <img src="../assert/Images/subject.png" alt="">
+                    <p><a href="./subject.php">Subject Details</a></p>
                 </div>
                 <div class="card">
-                    <img src="../assert/Images/one.jpg" alt="">
-                    <p><a href="">Timetable Details</a></p>
+                    <img src="../assert/Images/time.png" alt="">
+                    <p><a href="./timeallocation.php">Timetable Details</a></p>
                 </div>
             </div>
         </div>
         <div class="info">
-            <img src="../assert/Images/one.jpg" alt="">
-            <p>Atu Timetable System</p>
+            <img src="../assert/Images/atu.jpg" alt="">
+            <p>Quick Timetable System</p>
         </div>
     </div>
 
